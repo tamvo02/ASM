@@ -1,4 +1,8 @@
-﻿.top-menu {
+﻿
+html, body {
+    height: 100%;
+}
+.top-menu {
     border-bottom:solid 1px;
 
 }
@@ -135,4 +139,35 @@
     -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
     -o-transition: opacity 0.3s linear, right 0.3s ease-out;
     transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+.main-body {
+    height: 100%;
+}
+.category-menu {
+    height: 40px;
+}
+.footer-bar {
+    height: 100px;
+}
+
+.book-holder {
+    margin-top: 30px;
+}
+.book-card {
+    margin: 20px;
+    margin-top: 50px;
+    height: 150px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.book-pic {
+    margin-left: 10px;
+    margin-top: -40px;
+    height: 140px;
+}
+.book-inf {
+    margin-left:20px;
+}
+.book-card-bottom {
+    margin-left: 10px;
+    margin-top: 10px;
 }
